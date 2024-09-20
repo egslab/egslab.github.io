@@ -11,7 +11,8 @@ lastname: Shih
 publications: 'author^=*Shih'
 
 teaser: >
-    I'm an Assistant Professor at National Tsing Hua University from September 2023.  I came from a MD background and later received training in biostatistics.  
+    I'm an Assistant Professor at the School of Medicine and Institute of Statistics in National Tsing Hua University from September 2023.  
+    I came from a MD background and later received training in biostatistics.  
     My interest lies in extraction and synthesis of evidence from biomedical studies, in particular meta-analysis spectrum methods and causal inference in high-dimensional data.
 
 profile:
