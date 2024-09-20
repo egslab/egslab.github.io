@@ -1,82 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 617 Tsing Hua Laboratory, <a href='https://www.nthu.edu.tw/'>National Tsing Hua University</a>.
 
 profile:
   align: right
-  image: prof_pic.png
+  image: lab_logo.png
   image_circular: false # crops the image to make it circular
-  more_info: # >
-    # <p>Rm 617, Tsing Hua Lab</p>
-    # <p>101, Sec 2, Guangfu Rd</p>
-    # <p>East Dist, Hsinchu City 300014, Taiwan</p>
+#  more_info: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
-groups: [labhead]
-labhead:
-  title: Lab Head
-  people:
-    - name: Ming-Chieh Shih
-      description: Assistant Professor, School of Medicine, National Tsing Hua University
-      picture: mcshih.jpg
+social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to to the website of Dr. Ming-Chieh Shih and the evidence generation & synthesis lab! In this lab, I work with development and application of statistical methods related to evidence generation and evidence synthesis. 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-<div class="projects">
-{%- for group in page.groups -%}
-  <h2 class="category">{{page.[group].title}}</h2>
-    <div class="grid">
-      {%- for person in page.[group].people -%}
-          <article class="grid-item card">
-            {% if person.picture -%}
-              <img class="avatar" src="/assets/img/{{person.picture}}" alt="Portrait ({{person.name}})" width="auto" height="auto">
-            {%- else -%}
-              <img class="avatar" src="/assets/img/mainlp-logo-500.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
-            {%- endif -%}
-          <div class="card-body">
-            <!-- <h2 class="card-title">{{person.name}}</h2> -->
-            <h2 class="card-title">
-              {% if person.website -%}
-                <a href="{{person.website}}">{{person.name}}</a>
-              {%- else -%}
-                {{person.name}}
-              {%- endif -%}
-            </h2>
-            <div class="card-text">
-              {{person.description}}
-              <!-- <p style="margin-bottom: 0rem;">{{person.description}}</p> 
-              <ul class="network-icon" aria-hidden="true">
-              {% if person.website -%}
-                <li><a href="{{person.website}}"><i class="fas fa-globe"></i></a></li>
-              {%- endif -%}
-              {% if person.email -%}
-                <li><a role="button" class="email" style="color: var(--global-theme-color)"><i class="fas fa-envelope"></i></a></li>
-              {%- endif -%}
-              {% if person.googlescholar -%}
-                <li><a href="{{person.googlescholar}}"><i class="ai ai-google-scholar"></i></a></li>
-              {%- endif -%}
-              {% if person.github -%}
-                <li><a href="{{person.github}}"><i class="fab fa-github"></i></a></li>
-              {%- endif -%}
-              {% if person.twitter -%}
-                <li><a href="{{person.twitter}}"><i class="fab fa-twitter"></i></a></li>
-              {%- endif -%}
-            </ul>
-            {% if person.email -%}
-              <div class="email hidden">
-                <p>{{ person.email }}</p>
-              </div>
-            {%- endif -%} -->
-              </div>
-            </div>
-          </article>
-      {%- endfor -%}
-    </div>
-  {%- endfor -%}
-</div>
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
