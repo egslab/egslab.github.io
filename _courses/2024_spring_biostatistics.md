@@ -6,5 +6,5 @@ title: Biostatistics
 university: National Tsing Hua Univerisity
 semester: Spring 2024
 past: false
-external_page: 
+external_page:
 ---

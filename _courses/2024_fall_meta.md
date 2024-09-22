@@ -6,5 +6,5 @@ title: "Meta-Analysis: Theoretical Foundation and Applications"
 university: National Tsing Hua University
 semester: Fall 2024
 past: false
-external_page: 
+external_page:
 ---
