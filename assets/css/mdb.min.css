@@ -3120,27 +3120,6 @@ a.btn:not([href]):not([tabindex]):hover {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.card .card-body h1,
-.card .card-body h2,
-.card .card-body h3,
-.card .card-body h4,
-.card .card-body h5,
-.card .card-body h6 {
-  font-weight: 400;
-}
-.card .card-body .card-title a {
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-title a:hover {
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-.card .card-body .card-text {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: #747373;
-}
 .dropdown .dropdown-menu .dropdown-item:active {
   background-color: #757575;
 }
