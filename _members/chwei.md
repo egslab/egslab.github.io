@@ -6,15 +6,14 @@ group_rank: 3
 team_frontpage: true
 
 title: BS Chia-Huan Wei
-description: Profile of BS Chia-Huan Wei, under graduate researcher at egsLab.
 lastname: Wei
 publications: 'author^=*Wei'
 
 teaser: >
-    Write a short bio here.
+    <!---Write a short bio here.--->
 
 profile:
-    name: Chia-Huan Wei
+    name: BS Chia-Hsuan Wei
     align: right
     image: upload picture to /assets/img/ and put the filename here
     email: 
@@ -22,7 +21,7 @@ profile:
     linkedin: 
     orcid: 
     website: 
-    address: >
+    address: 
 ---
 
-Write a full bio here.
+<!---Write a full bio here.--->

@@ -48,9 +48,11 @@ nav_rank: 5
                     {% if member.profile.linkedin %}
                         <a href="https://linkedin.com/in/{{ member.profile.linkedin }}/" class="card-link" target="_blank"><i class="fab fa-linkedin"></i></a>
                     {% endif %}
-                    <p class="card-text">
-                        <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
-                    </p>
+                    {% if member.profile.address %}
+                        <p class="card-text">
+                            <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
+                        </p>
+                    {% endif %}
                 </div>
             </div>
         </div>

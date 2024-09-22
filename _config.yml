@@ -6,7 +6,7 @@ title: egsLab # the website title (if blank, full name will be used instead)
 title_logo: false # set to true if want to use logo instead of website title
 show_title: false # show website title at the top of the about page
 header_name: false # set to true if want to use name in header
-about_name: false # set to true if want to use name in about page
+about_name: true # set to true if want to use name in about page
 first_name: egsLab
 middle_name: 
 last_name: 
@@ -19,7 +19,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords:  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon_no_text.png # ⚛️ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://egslab.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -84,6 +84,7 @@ facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: egslab # your GitHub user name
 gitlab_username: # your GitLab user name
+gmap_id: mfiXTCye5z7fQoBF8 # your google map id
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
@@ -205,6 +206,9 @@ collections:
   members:
     output: true
     permalink: /:collection/:title/
+  courses:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
@@ -212,7 +216,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
