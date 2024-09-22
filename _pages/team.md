@@ -13,7 +13,7 @@ nav_rank: 5
 
     {% assign members = site.members | sort: "lastname" | where: "group", group %}
     {% for member in members %}
-{% comment %}
+
 <p>
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
@@ -60,6 +60,5 @@ nav_rank: 5
         </div>
     </div>
 </p>
-{% endcomment %}
     {% endfor %}
 {% endfor %}
