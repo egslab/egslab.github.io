@@ -7,7 +7,7 @@ team_frontpage: true
 
 title: BS Chia-Hsuan Wei
 lastname: Wei
-publications: "author^=*Chia-Hsuan*"
+publications: #"author^=*Chia-Hsuan*"
 
 teaser: >
   <!---Write a short bio here.--->
