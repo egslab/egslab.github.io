@@ -7,7 +7,7 @@ team_frontpage: true
 
 title: MSc Yi-Hao Su
 lastname: Su
-publications: "author^=*Su"
+publications: "author^=*Yi-Hao*"
 
 teaser: >
   <!---Write a short bio here.--->

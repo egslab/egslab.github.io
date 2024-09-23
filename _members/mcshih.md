@@ -7,7 +7,7 @@ team_frontpage: true
 
 title: Dr Ming-Chieh Shih
 lastname: Shih
-publications: "author^=*Shih"
+publications: "author^=*Ming-Chieh*"
 
 teaser: >
   I'm an Assistant Professor at the School of Medicine and Institute of Statistics in National Tsing Hua University from September 2023.  I came from a MD background and later received training in biostatistics.  

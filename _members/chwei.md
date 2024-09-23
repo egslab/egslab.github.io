@@ -5,9 +5,9 @@ group: Undergraduate researcher
 group_rank: 3
 team_frontpage: true
 
-title: BS Chia-Huan Wei
+title: BS Chia-Hsuan Wei
 lastname: Wei
-publications: "author^=*Wei"
+publications: "author^=*Chia-Hsuan*"
 
 teaser: >
   <!---Write a short bio here.--->
