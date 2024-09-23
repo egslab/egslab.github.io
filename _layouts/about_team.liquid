@@ -72,6 +72,9 @@ layout: default
 
     {% if page.publications %}
       <h2 id="publications">Publications</h2>
+      <p class="post-description">
+        # indicates co-first authors or co-corresponding authors
+      </p>
       <div class="publications">
         {% bibliography -f papers -q @*[{{page.publications}}]* %}
       </div>
