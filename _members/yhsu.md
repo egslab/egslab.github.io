@@ -5,7 +5,7 @@ group: Doctoral researcher
 group_rank: 2
 team_frontpage: true
 
-title: MSc Yi-HaO Su
+title: MSc Yi-HaOOOO Su
 lastname: Su
 publications: #"author^=*Yi-Hao*"
 
