@@ -5,23 +5,23 @@ group: Doctoral researcher
 group_rank: 2
 team_frontpage: true
 
-title: MSc Yi-HaOOOO Su
+title: MSc Yi-Hao Su
 lastname: Su
 publications: #"author^=*Yi-Hao*"
 
 teaser: >
-  <!---Write a short bio here.--->
+  I'm a PhD student at the Institute of Statistics in National Tsing Hua University since September 2024
 
 profile:
   name: MSc Yi-Hao Su
   align: right
-  image: upload picture to /assets/img/ and put the filename here
-  email:
-  github:
+  image: yhsu.jpg
+  email: harry0921@gmail.com
+  github: realithao
   linkedin:
   orcid:
   website:
   address:
 ---
 
-<!---Write a full bio here.--->
+I'm a PhD student at the Institute of Statistics in National Tsing Hua University since September 2024
