@@ -24,4 +24,4 @@ profile:
   address:
 ---
 
-Hi, my name is Wei Chia-Hsuan , and I am a first-year student in the Post-Baccalaureate Medical Program at National Tsing Hua University. Looking forward to working with and learning from everyone!
+Hi, my name is Wei Chia-Hsuan, and I am a first-year student in the Post-Baccalaureate Medical Program at National Tsing Hua University. Looking forward to working with and learning from everyone!
