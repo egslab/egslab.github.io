@@ -10,13 +10,13 @@ lastname: Wei
 publications: #"author^=*Chia-Hsuan*"
 
 teaser: >
-  <!---Write a short bio here.--->
+  Hi, my name is Wei Chia-Hsuan , and I am a first-year student in the Post-Baccalaureate Medical Program at National Tsing Hua University. Looking forward to working with and learning from everyone!
 
 profile:
   name: BS Chia-Hsuan Wei
   align: right
-  image: upload picture to /assets/img/ and put the filename here
-  email:
+  image: chwei.jpg
+  email: angela881011@gmail.com
   github:
   linkedin:
   orcid:
@@ -24,4 +24,4 @@ profile:
   address:
 ---
 
-<!---Write a full bio here.--->
+Hi, my name is Wei Chia-Hsuan , and I am a first-year student in the Post-Baccalaureate Medical Program at National Tsing Hua University. Looking forward to working with and learning from everyone!
