@@ -18,7 +18,7 @@ profile:
   align: right
   image: ycchen.jpg
   email: harry0921@gmail.com
-  github: 
+  github:
   linkedin:
   orcid:
   website:
