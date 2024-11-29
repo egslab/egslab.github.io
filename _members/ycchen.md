@@ -3,6 +3,7 @@ layout: about_team
 inline: false
 group: Undergraduate researcher
 group_rank: 3
+person_rank: 2
 team_frontpage: true
 
 title: MSc Yen-Chun Chen

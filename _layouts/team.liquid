@@ -6,7 +6,7 @@ layout : page
 
 <h2> {{ group }} </h2>
 
-    {% assign members = site.members | sort: "lastname" | where: "group", group %}
+    {% assign members = site.members | sort: "person_rank" | where: "group", group %}
     {% for member in members %}
 
 <p>

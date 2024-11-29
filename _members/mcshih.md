@@ -3,6 +3,7 @@ layout: about_team
 inline: false
 group: Faculty
 group_rank: 1
+person_rank: 1
 team_frontpage: true
 
 title: Dr Ming-Chieh Shih
