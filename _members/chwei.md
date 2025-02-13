@@ -2,7 +2,7 @@
 layout: about_team
 inline: false
 group: Undergraduate researcher
-group_rank: 3
+group_rank: 4
 person_rank: 1
 team_frontpage: true
 
