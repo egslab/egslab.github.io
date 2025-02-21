@@ -2,7 +2,7 @@
 layout: about_team
 inline: false
 group: Doctoral researcher
-group_rank: 4
+group_rank: 2
 person_rank: 1
 team_frontpage: true
 
