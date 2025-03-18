@@ -17,7 +17,7 @@ profile:
   name: BS Yu-Cheng Lin
   align: right
   image: yclin.jpg
-  email: 
+  email:
   github:
   linkedin:
   orcid:
