@@ -2,7 +2,7 @@
 layout: about_team
 inline: false
 group: Graduate researcher
-group_rank: 2
+group_rank: 3
 person_rank: 2
 team_frontpage: true
 
