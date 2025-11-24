@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2024-09-01
+date: 2025-09-01
 inline: true
-title: Evidence-Based Medicine
+title: Biostatistical Data Analysis (EMI)
 university: National Tsing Hua University
-semester: Fall 2024
-past: true
+semester: Fall 2025
+past: false
 external_page:
 ---

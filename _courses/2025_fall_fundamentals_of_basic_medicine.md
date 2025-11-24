@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2024-02-01
+date: 2025-09-01
 inline: true
-title: Biostatistics (Undergrad)
+title: Fundamentals of Basic Medicine
 university: National Tsing Hua Univerisity
-semester: Spring 2024
-past: true
+semester: Fall 2025
+past: false
 external_page:
 ---

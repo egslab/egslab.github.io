@@ -2,7 +2,7 @@
 layout: post
 date: 2025-02-01
 inline: true
-title: Biostatistics (EMI)
+title: Biostatistics (Undergrad, EMI)
 university: National Tsing Hua Univerisity
 semester: Spring 2025
 past: false

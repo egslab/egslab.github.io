@@ -5,6 +5,6 @@ inline: true
 title: Application of Technology in Daily Medical Practice (Co-instructor)
 university: National Tsing Hua Univerisity
 semester: Fall 2024
-past: false
+past: true
 external_page:
 ---
