@@ -4,7 +4,7 @@ date: 2024-09-01
 inline: true
 title: Biostatistical Data Analysis (EMI)
 university: National Tsing Hua University
-semester: Fall 2024
+semester: Fall 2024-2025
 past: false
 external_page:
 ---

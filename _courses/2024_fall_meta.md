@@ -5,6 +5,6 @@ inline: true
 title: "Meta-Analysis: Theoretical Foundation and Applications (EMI)"
 university: National Tsing Hua University
 semester: Fall 2024
-past: true
+past: false
 external_page:
 ---
