@@ -16,7 +16,7 @@ teaser: >
 profile:
   name: BS Jung-Yu Tai
   align: right
-  image: jytai.jpg
+  image: jytai.jpeg
   email: s114088008@m114.nthu.edu.tw
   github:
   linkedin:
