@@ -1,22 +1,27 @@
-{% assign courses = site.courses | where: 'past', include.past | reverse %}
+{% assign courses_grouped = site.courses | where: 'past', include.past | group_by : "latest_date" %}
+{% assign courses_sorted = courses_grouped | sort: "name" | reverse %}
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
-        {% for course in courses %}
-        <tr>
-            <td>{{ course.semester }}</td>
-            <td>
-                {% if course.external_page %}
-                    <a href="{{ course.external_page }}" target="_blank">
-                {% elsif course.inline == false %}
-                    <a href="{{ course.url | relative_url }}">
-                {% endif %}
-                        {{ course.title }}{%
-                        if course.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{%
-                        if course.inline == false or course.external_page %}</a>{% endif %}
-                    <br />
-                    <i class="fas fa-thumbtack"></i> {{ course.university }}
-            </td>
-        </tr>
+        {% for y in courses_sorted %}
+            {% assign courses = y.items | sort: "co_instructor" %}
+            {% for course in courses %}
+            <tr>
+                <td>{{ course.semester }}</td>
+                <td>
+                    {% if course.external_page %}
+                        <a href="{{ course.external_page }}" target="_blank">
+                    {% elsif course.inline == false %}
+                        <a href="{{ course.url | relative_url }}">
+                    {% endif %}
+                            <b>{{ course.title }}</b>{%
+                            if course.co_instructor %} <font color="grey"> (Co-instructor) </font> {% endif %}{%
+                            if course.external_page %} <i class="fas fa-external-link-alt"></i> {% endif %}{%
+                            if course.inline == false or course.external_page %}</a>{% endif %}
+                        <br />
+                        <font color="grey"><i class="fas fa-thumbtack"></i> {{ course.university }} </font>
+                </td>
+            </tr>
+            {% endfor %}
         {% endfor %}
     </table>
 </div>
