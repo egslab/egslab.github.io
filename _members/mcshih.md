@@ -6,7 +6,7 @@ group_rank: 1
 person_rank: 1
 team_frontpage: true
 
-title: Dr Ming-Chieh Shih
+title: Ming-Chieh Shih, PhD
 lastname: Shih
 publications: "author^=*Ming-Chieh*"
 
@@ -15,7 +15,7 @@ teaser: >
   My interest lies in extraction and synthesis of evidence from biomedical studies, in particular meta-analysis spectrum methods and causal inference in high-dimensional data.
 
 profile:
-  name: Dr Ming-Chieh Shih
+  name: Ming-Chieh Shih, PhD
   position: Head of the egsLab
   align: right
   image: mcshih.jpg
