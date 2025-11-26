@@ -6,7 +6,7 @@ group_rank: 4
 person_rank: 1
 team_frontpage: true
 
-title: BS Chia-Hsuan Wei
+title: Chia-Hsuan Wei, BS
 lastname: Wei
 publications: #"author^=*Chia-Hsuan*"
 
