@@ -6,7 +6,7 @@ group_rank: 4
 person_rank: 4
 team_frontpage: true
 
-title: BS Jung-Yu Tai
+title: Jung-Yu Tai, BS
 lastname: Tai
 publications: #"author^=*Jung-Yu*"
 
@@ -14,7 +14,7 @@ teaser: >
   Hi, I’m Tai Jung Yu, a student in the Post-Baccalaureate Medical Program at National Tsing Hua University (since 2025). Excited to join the lab, learn with everyone, and work together.
 
 profile:
-  name: BS Jung-Yu Tai
+  name: Jung-Yu Tai, BS
   align: right
   image: jytai.jpg
   email: s114088008@m114.nthu.edu.tw
