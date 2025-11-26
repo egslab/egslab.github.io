@@ -6,7 +6,7 @@ group_rank: 3
 person_rank: 1
 team_frontpage: true
 
-title: BS Hung Chen
+title: Hung Chen, BS
 lastname: Chen
 publications: #"author^=*Hung*"
 
@@ -14,7 +14,7 @@ teaser: >
   Hi, I’m a master’s student at the Institute of Statistics in National Tsing Hua University, and graduated from the Department of Mathematics, Tsing hua University.
 
 profile:
-  name: BS Hung Chen
+  name: Hung Chen, BS
   align: right
   image: hchen.jpg
   email: henry4040943@gmail.com
