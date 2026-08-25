@@ -115,6 +115,10 @@ html[data-theme="dark"] {
   .repo-img-dark {
     display: block;
   }
+
+  .lab-logo {
+    filter: invert(1);
+  }
 }
 
 html[data-theme-setting="dark"] {

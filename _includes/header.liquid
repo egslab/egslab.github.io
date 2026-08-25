@@ -4,7 +4,7 @@
     <div class="container" style = 'width: 900px; height: 50px'>
       {% if page.title != 'About' %}
         <a href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/img/lab_logo_neat_white.png' | relative_url }}"  style='width: auto; height: 50px; object-fit: contain'  alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
+          <img class="lab-logo" src="{{ '/assets/img/lab_logo_neat_white.png' | relative_url }}"  style='width: auto; height: 50px; object-fit: contain'  alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
         </a>
       {% endif %}
       {% comment %}
