@@ -1,9 +1,9 @@
 ---
 layout: about_team
 inline: false
-group: Alumni
-group_rank: 5
-person_rank: 2
+group: Undergraduate researcher
+group_rank: 3
+person_rank: 4
 team_frontpage: true
 
 title: Yen-Chun Chen
@@ -17,7 +17,7 @@ profile:
   name: Yen-Chun Chen
   chinese_name: 陳姸君
   position: Undergrad
-  time: 2025-2026
+  time: 2025-
   align: right
   image: ycchen.jpg
   email: harry0921@gmail.com
