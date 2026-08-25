@@ -12,17 +12,11 @@ layout : page
 <p>
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="col-sm-4 col-md-3 my-auto">
-                <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="img-fluid" alt="{{ member.profile.name }}" />
-            </div>
-            <div class="team col-sm-8 col-md-9">
+            <div class="team col-sm-12">
                 <div class="card-body">
                     {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
-                    <h4 class="card-title">{{ member.profile.name }}</h4>
-                    {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
-                    <p class="card-title">
-                        {{ member.teaser }}
-                    </p>
+                    <h4 class="card-title d-inline">{{ member.profile.name }}{% if member.profile.chinese_name %} ({{ member.profile.chinese_name }}){% endif %}</h4>
+                    {% if member.profile.position %}<h6 class="card-subtitle mb-2 mr-2 text-muted d-inline">&nbsp;{{ member.profile.position }}{% if member.profile.time %} ({{ member.profile.time }}){% endif %}</h6>{% endif %}
                     {% if member.inline == false %}</a>{% endif %}
                     {% if member.profile.email %}
                         <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>

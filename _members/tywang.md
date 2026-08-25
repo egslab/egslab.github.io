@@ -6,7 +6,7 @@ group_rank: 3
 person_rank: 2
 team_frontpage: true
 
-title: Tzu-Yi Wang, BS
+title: Tzu-Yi Wang
 lastname: Wang
 publications: #"author^=*Tzu-Yi*"
 
@@ -14,7 +14,10 @@ teaser: >
   Hi, I am a master student at the Department of Life Science in National Tsing Hua University, looking forward to exploring more knowledge here.
 
 profile:
-  name: Tzu-Yi Wang, BS
+  name: Tzu-Yi Wang
+  chinese_name: 王子奕
+  position: MS
+  time: 2025-
   align: right
   image: tywang.jpg
   email: ms113080615@gapp.nthu.edu.tw

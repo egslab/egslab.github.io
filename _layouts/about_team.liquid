@@ -5,7 +5,7 @@ layout: default
   <header class="post-header">
     {% include social_header.liquid %}
     <h1 class="post-title">
-     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
+     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% if page.profile.chinese_name %} ({{ page.profile.chinese_name }}){% endif %}{% endif %}
     </h1>
       {% comment %}<p class="post-description">{{ page.description }}</p>{% endcomment %}
   </header>
@@ -18,13 +18,12 @@ layout: default
           <img class="img-fluid{% assign ext = page.profile.image | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.name }}">
         {% if page.profile.href %}</a>{% endif %}
       {% endif %}
-      {% if page.profile.address %}
         <div class="address">
           <p>
             {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
-              <span class="name">{{ page.profile.name }}</span>
+              <span class="name">{{ page.profile.name }}{% if page.profile.chinese_name %} ({{ page.profile.chinese_name }}){% endif %}</span>
             {% if page.profile.href %}</a>{% endif %}
-            {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
+            {% if page.profile.position %}<br />{{ page.profile.position }}{% if page.profile.time %} ({{ page.profile.time }}){% endif %}{% endif %}
             {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
             {% if page.profile.website %}<br /><a href="{{ page.profile.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.profile.website }}</a>{% endif %}
             {% if page.profile.github %}<br /><a href="https://github.com/{{ page.profile.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.profile.github }}</a>{% endif %}
@@ -33,9 +32,8 @@ layout: default
             {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}
             {% if page.profile.linkedin %}<br /><a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}/" target="_blank"><i class="fab fa-linkedin"></i> {{ page.profile.linkedin }}</a>{% endif %}
           </p>
-          <p class="post">{{ page.profile.address }}</p>
+          {% if page.profile.address %}<p class="post">{{ page.profile.address }}</p>{% endif %}
         </div>
-      {% endif %}
     </div>
     {% endif %}
 

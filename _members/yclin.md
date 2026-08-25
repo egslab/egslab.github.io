@@ -6,7 +6,7 @@ group_rank: 3
 person_rank: 3
 team_frontpage: true
 
-title: Yu-Cheng Lin, BS
+title: Yu-Cheng Lin
 lastname: Lin
 publications: #"author^=*Yu-Cheng*"
 
@@ -14,7 +14,10 @@ teaser: >
   title: MSc Hi, I’m Yu-Cheng Lin, a first-year student in the Post-Baccalaureate Medical Program at National Tsing Hua University. I’m excited to collaborate and eager to learn with everyone.
 
 profile:
-  name: Yu-Cheng Lin, BS
+  name: Yu-Cheng Lin
+  chinese_name: 林育丞
+  position: Undergrad
+  time: 2025-
   align: right
   image: yclin.jpg
   email:
