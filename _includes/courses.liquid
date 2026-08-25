@@ -1,4 +1,4 @@
-{% assign courses_grouped = site.courses | where: 'past', include.past | group_by : "latest_date" %}
+{% assign courses_grouped = site.courses | where: 'past', include.past | group_by : "semester_sort_key" %}
 {% assign courses_sorted = courses_grouped | sort: "name" | reverse %}
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
@@ -6,7 +6,7 @@
             {% assign courses = y.items | sort: "co_instructor" %}
             {% for course in courses %}
             <tr>
-                <td>{{ course.semester }}</td>
+                <td>{{ course.semester_display }}</td>
                 <td>
                     {% if course.external_page %}
                         <a href="{{ course.external_page }}" target="_blank">
