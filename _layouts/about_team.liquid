@@ -3,9 +3,8 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    {% include social_header.liquid %}
     <h1 class="post-title">
-     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% if page.profile.chinese_name %} ({{ page.profile.chinese_name }}){% endif %}{% endif %}
+     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% if page.profile.chinese_name %} <br class="d-block d-sm-none" />({{ page.profile.chinese_name }}){% endif %}{% endif %}
     </h1>
       {% comment %}<p class="post-description">{{ page.description }}</p>{% endcomment %}
   </header>
