@@ -337,6 +337,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar-toggler {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   .icon-bar {
     display: block;
     width: 18px;
