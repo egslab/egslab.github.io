@@ -338,17 +338,17 @@ ul.task-list input[type="checkbox"] {
 .navbar-toggler {
   .icon-bar {
     display: block;
-    width: 22px;
+    width: 18px;
     height: 2px;
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
+    transform-origin: center;
   }
 
   .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
+    transform: translateY(6px) rotate(45deg);
   }
 
   .middle-bar {
@@ -356,14 +356,13 @@ ul.task-list input[type="checkbox"] {
   }
 
   .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
+    transform: translateY(-6px) rotate(-45deg);
   }
 }
 
 .navbar-toggler.collapsed {
   .top-bar {
-    transform: rotate(0);
+    transform: translateY(0) rotate(0);
   }
 
   .middle-bar {
@@ -371,7 +370,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .bottom-bar {
-    transform: rotate(0);
+    transform: translateY(0) rotate(0);
   }
 }
 
