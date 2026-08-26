@@ -253,6 +253,7 @@ ul.task-list input[type="checkbox"] {
 @media (max-width: 575.98px) {
   #navbar .container {
     height: auto !important;
+    min-height: 50px;
   }
 }
 
