@@ -1001,9 +1001,6 @@ a.btn.disabled {
   margin-top: -0.375rem;
   margin-bottom: 0;
 }
-.card-text:last-child {
-  margin-bottom: 0;
-}
 .card-link:hover {
   text-decoration: none;
 }
@@ -1590,6 +1587,14 @@ a.close.disabled {
 }
 .d-inline {
   display: inline !important;
+}
+.d-block {
+  display: block !important;
+}
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
 }
 .flex-nowrap {
   -ms-flex-wrap: nowrap !important;
